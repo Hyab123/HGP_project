@@ -1,0 +1,33 @@
+  h3{
+      color: black;
+      font-weight: 150;  
+  }
+
+
+  h1{
+      color:orange;
+      text-align: center
+  }
+
+  h2{
+      color:lightgreen;
+  }
+
+  body{
+      background-color: #ffffb1;
+    }
+
+  .topnav:hover {
+    background-color: yellow;
+  }
+
+  #topbar{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 20px
+  }
+
+  #emails{
+    text-align: right;
+  }

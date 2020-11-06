@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                Contact
+            </title>
+        </head>
+
+        <link rel = "stylesheet" href = "Main_webpage.css"  />
+
+        <body style = "background-color: black;">
+            <h2>
+                You can contact me using my email: hyab.isayas@hgs.hiddengeniusproject.org
+            </h2>
+            
+            <button onclick="myFunction()">Copy the email
+                <input type="text" value="hyab.isayas@hgs.hiddengeniusproject.org" id="myInput">
+            </button>
+
+
+            <script>
+                function myFunction() {
+                  var copyText = document.getElementById("myInput");
+                  copyText.select();
+                  copyText.setSelectionRange(0, 99999)
+                  document.execCommand("copy");
+                  alert("The following text has been copied: " + copyText.value);
+                }
+            </script>   
+            
+            <br>
+
+            <h3><a href= "https://www.icloud.com/">
+                Icloud
+            </a>
+            </h3>
+            
+            <br>
+        
+        <h3>
+            <a href = "https://mail.google.com/mail/u/0/">
+                Gmail
+            </a>
+        </h3>
+
+        <br>
+
+        <h3>
+            <a href = "Main_webpage.html">
+                Go back
+            </a>
+        </h3>
+
+        </body>
+
+    </html>
